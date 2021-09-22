@@ -6,7 +6,7 @@
 git add <filename> - adds file to staging.
 git add . - adds all files to staging.
 git restore --staged <filename> - removes file from staging.
-git restore --staged . - removes all currently staged files.
+git restore --staged . or git reset HEAD - unstages all currently staged files.
 ```
 
 ### Staging :arrow_right: Local
