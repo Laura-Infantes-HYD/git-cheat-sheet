@@ -50,7 +50,7 @@ git reset --hard <branch name/commit SHA> - changes current local branch’s hea
 git checkout/switch <branch name> - brings branch to workspace
 git checkout -b - creates new branch and brings to workspace
 git merge <branch name> - merges branch into current checked out branch
-git rebase <branch name> - updates
+git rebase <branch name> - updates current branch with forward work of branch stated
 ```
 
 ### Informational
