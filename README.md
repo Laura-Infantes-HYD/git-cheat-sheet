@@ -1,6 +1,6 @@
 #Git Cheat Sheet
 
-###Workspace &#8594 Staging
+###Workspace :arrow_right: Staging
 
 ```
 #git add <filename> - adds file to staging
@@ -11,20 +11,20 @@
 #git restore --staged . - removes all currently staged files
 ```
 
-###Workspace <== Staging
+###Workspace :arrow_left: Staging
 
 ```
 git checkout -- <filename> - brings last staged version of file to your workspace
 git checkout -- . - brings all last changes staged to your workspace
 ```
 
-###Staging ==> Remote
+###Staging :arrow_right: Remote
 
 ```
 git push
 ```
 
-###Workspace <== Remote
+###Workspace :arrow_left: Remote
 
 ```
 git fetch
